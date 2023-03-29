@@ -12,33 +12,164 @@
 
 <body class="bg-slate-100 p-4">
     <section>
-        <span id="span" class="bg-slate-300 text-slate-500 px-2 py-1 rounded-2xl"></span>
-        <h3 class="text-red-400 font-medium text-center">***Please check time from 12 am and before sunset for <span
-                class="underline">accurate date of
-                Ramadan</span>***
-        </h3>
-        <p
-            class="text-slate-600 font-medium bg-slate-50 p-2 text text-justify w-100 sm:w-100 md:w-3/4 lg:w-1/2 md:mx-auto lg:mx-auto">
-            The Sehri
-            and iftar
-            time is
-            based upon the
-            time provided by
-            Islamic
-            Foundation
-            Bangladesh.
-            Note that they've
-            deducted 3 mins from sehri and added 3 mins to iftar time for careful measurement. However the sunnah is to
-            hasting to break the fast after sunset and not to delay it. So break your fast at the provided time after
-            deducting 3
-            mins <span class="text-red-400">IF YOUR TIME IS ACCURATELY UP TO DATE</span> through internet
-            connection.</p>
-        <button id="btn-update"
-            class="bg-pink-500 hover:bg-pink-600 text-white font-semibold px-2 py-1 rounded flex mx-auto my-2 items-center">About
-            Today</button>
-        <h3 id="gregorian-date" class="text-green-500 font-bold text-center"></h3>
-        <h3 id="hijri-date" class="text-green-500 font-bold text-center"></h3>
-        <div id="iftar-sehri"></div>
+        <div>
+            <span id="span" class="bg-slate-300 text-slate-500 px-2 py-1 rounded-2xl"></span>
+            <h3 class="text-red-400 font-medium text-center">***Please check time from 12 am and before sunset for <span
+                    class="underline">accurate date of
+                    Ramadan</span>***
+            </h3>
+            <p
+                class="text-slate-600 font-medium bg-slate-50 p-3 text text-justify w-100 sm:w-100 md:w-3/4 lg:w-1/2 md:mx-auto lg:mx-auto rounded-xl">
+                The Sehri
+                and iftar
+                time is
+                based upon the
+                time provided by
+                Islamic
+                Foundation
+                Bangladesh.
+                Note that they've
+                deducted 3 mins from sehri and added 3 mins to iftar time for careful measurement. However the sunnah is
+                to
+                hasting to break the fast after sunset and not to delay it. So break your fast at the provided time
+                after
+                deducting 3
+                mins <span class="text-red-400">IF YOUR TIME IS ACCURATELY UP TO DATE</span> through internet
+                connection.</p>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 text-slate-600 gap-4 p-2">
+            <p>"When Ramadan enters, the gates of Paradise are opened, the gates of
+                Hellfire
+                are
+                closed and the devils
+                are chained."</p>
+            <p>"Every action a son of Adam does shall be multiplied—a good action by ten times its value, up to 700
+                times. Allah says: With the exception of fasting, which belongs to Me, and I reward it accordingly. For,
+                one abandons his desire and food for My sake."</p>
+            <p>"There are two occasions of joy for a fasting person: one when he breaks his fast, and the other when he
+                meets his Lord, and the (bad) breath (of a fasting person) is better in the sight of Allah than the
+                fragrance of musk."</p>
+            <p>"Fasting is a shield; so when one of you is fasting he should neither indulge in obscene language nor
+                should he raise his voice in anger. If someone attacks him or insults him, let him say: “I am fasting!”"
+            </p>
+            <p>"The five (daily) prayers, and from one Friday prayer to the next, and from Ramadan to Ramadan are
+                expiation for sins committed in between provided one stays away from the major sins."</p>
+            <p>"Whoever observes fasts during the month of Ramadan out of sincere faith, and hoping to attain Allah's
+                rewards, then all his past sins will be forgiven."</p>
+            <p>"Whoever stands (in the voluntary night prayer of) Ramadan out of faith and in hope of reward, his
+                previous sins will be forgiven."</p>
+            <p>"Anyone who fasts for one day for Allah's sake, Allah will keep his face away from the Hellfire for (a
+                distance covered by a journey of) seventy years."</p>
+
+        </div>
+        <div class="mb-4">
+            <button id="btn-update"
+                class="bg-pink-500 hover:bg-pink-600 text-white font-semibold px-2 py-1 rounded flex mx-auto my-2 items-center">About
+                Today</button>
+            <h3 id="gregorian-date" class="text-green-500 font-bold text-center"></h3>
+            <h3 id="hijri-date" class="text-green-500 font-bold text-center"></h3>
+            <div id="iftar-sehri"></div>
+        </div>
+        <div
+            class="grid grid-cols-5 sm:grid-cols-6 md:grid-cols-6 lg:grid-cols-6 gap-2 w-100 sm:w-100 md:w-3/4 lg:w-1/2 mx-auto">
+            <div class="bg-pink-200 text-center text-pink-700 font-medium rounded-lg">
+                <p>00:00</p>
+                <p>01:00 AM</p>
+            </div>
+            <div class="bg-pink-200 text-center text-pink-700 font-medium rounded-lg">
+                <p>01:00</p>
+                <p>01:00 AM</p>
+            </div>
+            <div class="bg-pink-200 text-center text-pink-700 font-medium rounded-lg">
+                <p>02:00</p>
+                <p>02:00 AM</p>
+            </div>
+            <div class="bg-pink-200 text-center text-pink-700 font-medium rounded-lg">
+                <p>03:00</p>
+                <p>03:00 AM</p>
+            </div>
+            <div class="bg-pink-200 text-center text-pink-700 font-medium rounded-lg">
+                <p>04:00</p>
+                <p>04:00 AM</p>
+            </div>
+            <div class="bg-pink-200 text-center text-pink-700 font-medium rounded-lg">
+                <p>05:00</p>
+                <p>05:00 AM</p>
+            </div>
+            <div class="bg-pink-200 text-center text-pink-700 font-medium rounded-lg">
+                <p>06:00</p>
+                <p>06:00 AM</p>
+            </div>
+            <div class="bg-pink-200 text-center text-pink-700 font-medium rounded-lg">
+                <p>07:00</p>
+                <p>07:00 AM</p>
+            </div>
+            <div class="bg-pink-200 text-center text-pink-700 font-medium rounded-lg">
+                <p>08:00</p>
+                <p>08:00 AM</p>
+            </div>
+            <div class="bg-pink-200 text-center text-pink-700 font-medium rounded-lg">
+                <p>09:00</p>
+                <p>09:00 AM</p>
+            </div>
+            <div class="bg-pink-200 text-center text-pink-700 font-medium rounded-lg">
+                <p>10:00</p>
+                <p>10:00 AM</p>
+            </div>
+            <div class="bg-pink-200 text-center text-pink-700 font-medium rounded-lg">
+                <p>11:00</p>
+                <p>11:00 AM</p>
+            </div>
+            <div class="bg-pink-200 text-center text-pink-700 font-medium rounded-lg">
+                <p>12:00</p>
+                <p>12:00 PM</p>
+            </div>
+            <div class="bg-pink-200 text-center text-pink-700 font-medium rounded-lg">
+                <p>13:00</p>
+                <p>01:00 PM</p>
+            </div>
+            <div class="bg-pink-200 text-center text-pink-700 font-medium rounded-lg">
+                <p>14:00</p>
+                <p>02:00 PM</p>
+            </div>
+            <div class="bg-pink-200 text-center text-pink-700 font-medium rounded-lg">
+                <p>15:00</p>
+                <p>03:00 PM</p>
+            </div>
+            <div class="bg-pink-200 text-center text-pink-700 font-medium rounded-lg">
+                <p>16:00</p>
+                <p>04:00 PM</p>
+            </div>
+            <div class="bg-pink-200 text-center text-pink-700 font-medium rounded-lg">
+                <p>17:00</p>
+                <p>05:00 PM</p>
+            </div>
+            <div class="bg-pink-200 text-center text-pink-700 font-medium rounded-lg">
+                <p>18:00</p>
+                <p>06:00 PM</p>
+            </div>
+            <div class="bg-pink-200 text-center text-pink-700 font-medium rounded-lg">
+                <p>19:00</p>
+                <p>07:00 PM</p>
+            </div>
+            <div class="bg-pink-200 text-center text-pink-700 font-medium rounded-lg">
+                <p>20:00</p>
+                <p>08:00 PM</p>
+            </div>
+            <div class="bg-pink-200 text-center text-pink-700 font-medium rounded-lg">
+                <p>21:00</p>
+                <p>09:00 PM</p>
+            </div>
+            <div class="bg-pink-200 text-center text-pink-700 font-medium rounded-lg">
+                <p>22:00</p>
+                <p>10:00 PM</p>
+            </div>
+            <div class="bg-pink-200 text-center text-pink-700 font-medium rounded-lg">
+                <p>23:00</p>
+                <p>11:00 PM</p>
+            </div>
+        </div>
+
     </section>
     <script src="app.js"></script>
 </body>
