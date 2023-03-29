@@ -5,36 +5,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/6c0e978889.js" crossorigin="anonymous"></script>
 </head>
 <title>RAMADAN 2023</title>
-<style>
-    #iftar-sehri h3 {
-        background-color: aquamarine;
-        width: 40%;
-    }
-
-    #gregorian-date,
-    #hijri-date {
-        width: 40%;
-        margin-top: 5px;
-    }
-</style>
 </head>
 
-<body class="container mx-auto">
-    <h3 style="color: tomato;">***Check time from 12 am and before sunset for accurate date of Ramadan***
-    </h3>
-    <button id="btn-update" class="btn btn-primary">About Today</button>
-    <h3 id="gregorian-date" style="background-color: lightpink;"></h3>
-    <h3 id="hijri-date" style="background-color: lightgreen;"></h3>
-    <div id="iftar-sehri">
-
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
-        crossorigin="anonymous"></script>
+<body class="bg-slate-100 p-4">
+    <section>
+        <span id="span" class="bg-slate-300 text-slate-500 px-2 py-1 rounded-2xl"></span>
+        <h3 class="text-red-400 font-medium text-center">***Please check time from 12 am and before sunset for <span
+                class="underline">accurate date of
+                Ramadan</span>***
+        </h3>
+        <p
+            class="text-slate-600 font-medium bg-slate-50 p-2 text text-justify w-100 sm:w-100 md:w-3/4 lg:w-1/2 md:mx-auto lg:mx-auto">
+            The Sehri
+            and iftar
+            time is
+            based upon the
+            time provided by
+            Islamic
+            Foundation
+            Bangladesh.
+            Note that they've
+            deducted 3 mins from sehri and added 3 mins to iftar time for careful measurement. However the sunnah is to
+            hasting to break the fast after sunset and not to delay it. So break your fast at the provided time after
+            deducting 3
+            mins <span class="text-red-400">IF YOUR TIME IS ACCURATELY UPTO DATE</span> through internet
+            connection.</p>
+        <button id="btn-update"
+            class="bg-pink-500 hover:bg-pink-600 text-white font-semibold px-2 py-1 rounded flex mx-auto my-2 items-center">About
+            Today</button>
+        <h3 id="gregorian-date" class="text-green-500 font-bold text-center"></h3>
+        <h3 id="hijri-date" class="text-green-500 font-bold text-center"></h3>
+        <div id="iftar-sehri"></div>
+    </section>
     <script src="app.js"></script>
 </body>
 
