@@ -11,8 +11,8 @@ document.getElementById('btn-update').addEventListener('click', function () {
         hijriDate.innerText = 6 + 'th Ramadan';
         iftarSehri.innerHTML = `
         <h2 class="text-red-500 font-medium text-center mt-2">**Dhaka time**</h2>
-        <h3 class="text-cyan-500 font-bold text-center">Sehri at 4:33 am</h3>
-        <h3 class="text-violet-500 font-bold text-center">Iftar at 18:17 pm</h3>
+        <h3 class="text-cyan-500 font-bold text-center">Sehri at 04:33</h3>
+        <h3 class="text-violet-500 font-bold text-center">Iftar at 18:17</h3>
         `;
     }
     else if (dateNumber === 30) {
@@ -20,8 +20,8 @@ document.getElementById('btn-update').addEventListener('click', function () {
         hijriDate.innerText = 7 + 'th Ramadan';
         iftarSehri.innerHTML = `
         <h2 class="text-red-500 font-medium text-center mt-2">**Dhaka time**</h2>
-        <h3 class="text-cyan-500 font-bold text-center">Sehri at 4:31 am</h3>
-        <h3 class="text-violet-500 font-bold text-center">Iftar at 18:17 pm</h3>
+        <h3 class="text-cyan-500 font-bold text-center">Sehri at 04:31</h3>
+        <h3 class="text-violet-500 font-bold text-center">Iftar at 18:17</h3>
         `;
     }
     else if (dateNumber === 31) {
@@ -29,8 +29,8 @@ document.getElementById('btn-update').addEventListener('click', function () {
         hijriDate.innerText = 8 + 'th Ramadan';
         iftarSehri.innerHTML = `
         <h2 class="text-red-500 font-medium text-center mt-2">**Dhaka time**</h2>
-        <h3 class="text-cyan-500 font-bold text-center">Sehri at 4:30 am</h3>
-        <h3 class="text-violet-500 font-bold text-center">Iftar at 18:18 pm</h3>
+        <h3 class="text-cyan-500 font-bold text-center">Sehri at 04:30</h3>
+        <h3 class="text-violet-500 font-bold text-center">Iftar at 18:18</h3>
         `;
     }
     else if (dateNumber === 1) {
@@ -38,8 +38,8 @@ document.getElementById('btn-update').addEventListener('click', function () {
         hijriDate.innerText = 9 + 'th Ramadan';
         iftarSehri.innerHTML = `
         <h2 class="text-red-500 font-medium text-center mt-2">**Dhaka time**</h2>
-        <h3 class="text-cyan-500 font-bold text-center">Sehri at 4:29 am</h3>
-        <h3 class="text-violet-500 font-bold text-center">Iftar at 18:18 pm</h3>
+        <h3 class="text-cyan-500 font-bold text-center">Sehri at 04:29</h3>
+        <h3 class="text-violet-500 font-bold text-center">Iftar at 18:18</h3>
         `;
     }
     else if (dateNumber === 2) {
@@ -47,8 +47,8 @@ document.getElementById('btn-update').addEventListener('click', function () {
         hijriDate.innerText = 10 + 'th Ramadan';
         iftarSehri.innerHTML = `
         <h2 class="text-red-500 font-medium text-center mt-2">**Dhaka time**</h2>
-        <h3 class="text-cyan-500 font-bold text-center">Sehri at 4:28 am</h3>
-        <h3 class="text-violet-500 font-bold text-center">Iftar at 18:19 pm</h3>
+        <h3 class="text-cyan-500 font-bold text-center">Sehri at 04:28</h3>
+        <h3 class="text-violet-500 font-bold text-center">Iftar at 18:19</h3>
         `;
     }
     else if (dateNumber === 3) {
@@ -56,17 +56,17 @@ document.getElementById('btn-update').addEventListener('click', function () {
         hijriDate.innerText = 11 + 'th Ramadan';
         iftarSehri.innerHTML = `
         <h2 class="text-red-500 font-medium text-center mt-2">**Dhaka time**</h2>
-        <h3 class="text-cyan-500 font-bold text-center">Sehri at 4:27 am</h3>
-        <h3 class="text-violet-500 font-bold text-center">Iftar at 18:19 pm</h3>
+        <h3 class="text-cyan-500 font-bold text-center">Sehri at 04:27</h3>
+        <h3 class="text-violet-500 font-bold text-center">Iftar at 18:19</h3>
         `;
     }
-    else if (dateNumber === 4) {
-        gregorianDate.innerText = 4 + 'th April';
+    else if (dateNumber === 04) {
+        gregorianDate.innerText = 04 + 'th April';
         hijriDate.innerText = 12 + 'th Ramadan';
         iftarSehri.innerHTML = `
         <h2 class="text-red-500 font-medium text-center mt-2">**Dhaka time**</h2>
-        <h3 class="text-cyan-500 font-bold text-center">Sehri at 4:26 am</h3>
-        <h3 class="text-violet-500 font-bold text-center">Iftar at 18:19 pm</h3>
+        <h3 class="text-cyan-500 font-bold text-center">Sehri at 04:26</h3>
+        <h3 class="text-violet-500 font-bold text-center">Iftar at 18:19</h3>
         `;
     }
     else if (dateNumber === 5) {
@@ -74,8 +74,8 @@ document.getElementById('btn-update').addEventListener('click', function () {
         hijriDate.innerText = 13 + 'th Ramadan';
         iftarSehri.innerHTML = `
         <h2 class="text-red-500 font-medium text-center mt-2">**Dhaka time**</h2>
-        <h3 class="text-cyan-500 font-bold text-center">Sehri at 4:24 am</h3>
-        <h3 class="text-violet-500 font-bold text-center">Iftar at 18:20 pm</h3>
+        <h3 class="text-cyan-500 font-bold text-center">Sehri at 04:24</h3>
+        <h3 class="text-violet-500 font-bold text-center">Iftar at 18:20</h3>
         `;
     }
     else if (dateNumber === 6) {
@@ -83,8 +83,8 @@ document.getElementById('btn-update').addEventListener('click', function () {
         hijriDate.innerText = 14 + 'th Ramadan';
         iftarSehri.innerHTML = `
         <h2 class="text-red-500 font-medium text-center mt-2">**Dhaka time**</h2>
-        <h3 class="text-cyan-500 font-bold text-center">Sehri at 4:24 am</h3>
-        <h3 class="text-violet-500 font-bold text-center">Iftar at 18:20 pm</h3>
+        <h3 class="text-cyan-500 font-bold text-center">Sehri at 04:24</h3>
+        <h3 class="text-violet-500 font-bold text-center">Iftar at 18:20</h3>
         `;
     }
     else if (dateNumber === 7) {
@@ -92,8 +92,8 @@ document.getElementById('btn-update').addEventListener('click', function () {
         hijriDate.innerText = 15 + 'th Ramadan';
         iftarSehri.innerHTML = `
         <h2 class="text-red-500 font-medium text-center mt-2">**Dhaka time**</h2>
-        <h3 class="text-cyan-500 font-bold text-center">Sehri at 4:23 am</h3>
-        <h3 class="text-violet-500 font-bold text-center">Iftar at 18:21 pm</h3>
+        <h3 class="text-cyan-500 font-bold text-center">Sehri at 04:23</h3>
+        <h3 class="text-violet-500 font-bold text-center">Iftar at 18:21</h3>
         `;
     }
     else if (dateNumber === 8) {
@@ -101,8 +101,8 @@ document.getElementById('btn-update').addEventListener('click', function () {
         hijriDate.innerText = 16 + 'th Ramadan';
         iftarSehri.innerHTML = `
         <h2 class="text-red-500 font-medium text-center mt-2">**Dhaka time**</h2>
-        <h3 class="text-cyan-500 font-bold text-center">Sehri at 4:22 am</h3>
-        <h3 class="text-violet-500 font-bold text-center">Iftar at 18:21 pm</h3>
+        <h3 class="text-cyan-500 font-bold text-center">Sehri at 04:22</h3>
+        <h3 class="text-violet-500 font-bold text-center">Iftar at 18:21</h3>
         `;
     }
     else if (dateNumber === 9) {
@@ -110,8 +110,8 @@ document.getElementById('btn-update').addEventListener('click', function () {
         hijriDate.innerText = 17 + 'th Ramadan';
         iftarSehri.innerHTML = `
         <h2 class="text-red-500 font-medium text-center mt-2">**Dhaka time**</h2>
-        <h3 class="text-cyan-500 font-bold text-center">Sehri at 4:21 am</h3>
-        <h3 class="text-violet-500 font-bold text-center">Iftar at 18:21 pm</h3>
+        <h3 class="text-cyan-500 font-bold text-center">Sehri at 04:21</h3>
+        <h3 class="text-violet-500 font-bold text-center">Iftar at 18:21</h3>
         `;
     }
     else if (dateNumber === 10) {
@@ -119,8 +119,8 @@ document.getElementById('btn-update').addEventListener('click', function () {
         hijriDate.innerText = 18 + 'th Ramadan';
         iftarSehri.innerHTML = `
         <h2 class="text-red-500 font-medium text-center mt-2">**Dhaka time**</h2>
-        <h3 class="text-cyan-500 font-bold text-center">Sehri at 4:20 am</h3>
-        <h3 class="text-violet-500 font-bold text-center">Iftar at 18:22 pm</h3>
+        <h3 class="text-cyan-500 font-bold text-center">Sehri at 04:20</h3>
+        <h3 class="text-violet-500 font-bold text-center">Iftar at 18:22</h3>
         `;
     }
     else if (dateNumber === 11) {
@@ -128,8 +128,8 @@ document.getElementById('btn-update').addEventListener('click', function () {
         hijriDate.innerText = 19 + 'th Ramadan';
         iftarSehri.innerHTML = `
         <h2 class="text-red-500 font-medium text-center mt-2">**Dhaka time**</h2>
-        <h3 class="text-cyan-500 font-bold text-center">Sehri at 4:19 am</h3>
-        <h3 class="text-violet-500 font-bold text-center">Iftar at 18:22 pm</h3>
+        <h3 class="text-cyan-500 font-bold text-center">Sehri at 04:19</h3>
+        <h3 class="text-violet-500 font-bold text-center">Iftar at 18:22</h3>
         `;
     }
     else if (dateNumber === 12) {
@@ -137,8 +137,8 @@ document.getElementById('btn-update').addEventListener('click', function () {
         hijriDate.innerText = 20 + 'th Ramadan';
         iftarSehri.innerHTML = `
         <h2 class="text-red-500 font-medium text-center mt-2">**Dhaka time**</h2>
-        <h3 class="text-cyan-500 font-bold text-center">Sehri at 4:18 am</h3>
-        <h3 class="text-violet-500 font-bold text-center">Iftar at 18:23 pm</h3>
+        <h3 class="text-cyan-500 font-bold text-center">Sehri at 04:18</h3>
+        <h3 class="text-violet-500 font-bold text-center">Iftar at 18:23</h3>
         `;
     }
     else if (dateNumber === 13) {
@@ -146,8 +146,8 @@ document.getElementById('btn-update').addEventListener('click', function () {
         hijriDate.innerText = 21 + 'th Ramadan';
         iftarSehri.innerHTML = `
         <h2 class="text-red-500 font-medium text-center mt-2">**Dhaka time**</h2>
-        <h3 class="text-cyan-500 font-bold text-center">Sehri at 4:17 am</h3>
-        <h3 class="text-violet-500 font-bold text-center">Iftar at 18:23 pm</h3>
+        <h3 class="text-cyan-500 font-bold text-center">Sehri at 04:17</h3>
+        <h3 class="text-violet-500 font-bold text-center">Iftar at 18:23</h3>
         `;
     }
     else if (dateNumber === 14) {
@@ -155,8 +155,8 @@ document.getElementById('btn-update').addEventListener('click', function () {
         hijriDate.innerText = 22 + 'th Ramadan';
         iftarSehri.innerHTML = `
         <h2 class="text-red-500 font-medium text-center mt-2">**Dhaka time**</h2>
-        <h3 class="text-cyan-500 font-bold text-center">Sehri at 4:15 am</h3>
-        <h3 class="text-violet-500 font-bold text-center">Iftar at 18:23 pm</h3>
+        <h3 class="text-cyan-500 font-bold text-center">Sehri at 04:15</h3>
+        <h3 class="text-violet-500 font-bold text-center">Iftar at 18:23</h3>
         `;
     }
     else if (dateNumber === 15) {
@@ -164,8 +164,8 @@ document.getElementById('btn-update').addEventListener('click', function () {
         hijriDate.innerText = 23 + 'th Ramadan';
         iftarSehri.innerHTML = `
         <h2 class="text-red-500 font-medium text-center mt-2">**Dhaka time**</h2>
-        <h3 class="text-cyan-500 font-bold text-center">Sehri at 4:14 am</h3>
-        <h3 class="text-violet-500 font-bold text-center">Iftar at 18:24 pm</h3>
+        <h3 class="text-cyan-500 font-bold text-center">Sehri at 04:14</h3>
+        <h3 class="text-violet-500 font-bold text-center">Iftar at 18:24</h3>
         `;
     }
     else if (dateNumber === 16) {
@@ -173,8 +173,8 @@ document.getElementById('btn-update').addEventListener('click', function () {
         hijriDate.innerText = 24 + 'th Ramadan';
         iftarSehri.innerHTML = `
         <h2 class="text-red-500 font-medium text-center mt-2">**Dhaka time**</h2>
-        <h3 class="text-cyan-500 font-bold text-center">Sehri at 4:13 am</h3>
-        <h3 class="text-violet-500 font-bold text-center">Iftar at 18:24 pm</h3>
+        <h3 class="text-cyan-500 font-bold text-center">Sehri at 04:13</h3>
+        <h3 class="text-violet-500 font-bold text-center">Iftar at 18:24</h3>
         `;
     }
     else if (dateNumber === 17) {
@@ -182,8 +182,8 @@ document.getElementById('btn-update').addEventListener('click', function () {
         hijriDate.innerText = 25 + 'th Ramadan';
         iftarSehri.innerHTML = `
         <h2 class="text-red-500 font-medium text-center mt-2">**Dhaka time**</h2>
-        <h3 class="text-cyan-500 font-bold text-center">Sehri at 4:12 am</h3>
-        <h3 class="text-violet-500 font-bold text-center">Iftar at 18:24 pm</h3>
+        <h3 class="text-cyan-500 font-bold text-center">Sehri at 04:12</h3>
+        <h3 class="text-violet-500 font-bold text-center">Iftar at 18:24</h3>
         `;
     }
     else if (dateNumber === 18) {
@@ -191,8 +191,8 @@ document.getElementById('btn-update').addEventListener('click', function () {
         hijriDate.innerText = 26 + 'th Ramadan';
         iftarSehri.innerHTML = `
         <h2 class="text-red-500 font-medium text-center mt-2">**Dhaka time**</h2>
-        <h3 class="text-cyan-500 font-bold text-center">Sehri at 4:11 am</h3>
-        <h3 class="text-violet-500 font-bold text-center">Iftar at 18:25 pm</h3>
+        <h3 class="text-cyan-500 font-bold text-center">Sehri at 04:11</h3>
+        <h3 class="text-violet-500 font-bold text-center">Iftar at 18:25</h3>
         `;
     }
     else if (dateNumber === 19) {
@@ -200,8 +200,8 @@ document.getElementById('btn-update').addEventListener('click', function () {
         hijriDate.innerText = 27 + 'th Ramadan';
         iftarSehri.innerHTML = `
         <h2 class="text-red-500 font-medium text-center mt-2">**Dhaka time**</h2>
-        <h3 class="text-cyan-500 font-bold text-center">Sehri at 4:10 am</h3>
-        <h3 class="text-violet-500 font-bold text-center">Iftar at 18:25 pm</h3>
+        <h3 class="text-cyan-500 font-bold text-center">Sehri at 04:10</h3>
+        <h3 class="text-violet-500 font-bold text-center">Iftar at 18:25</h3>
         `;
     }
     else if (dateNumber === 20) {
@@ -209,8 +209,8 @@ document.getElementById('btn-update').addEventListener('click', function () {
         hijriDate.innerText = 28 + 'th Ramadan';
         iftarSehri.innerHTML = `
         <h2 class="text-red-500 font-medium text-center mt-2">**Dhaka time**</h2>
-        <h3 class="text-cyan-500 font-bold text-center">Sehri at 4:09 am</h3>
-        <h3 class="text-violet-500 font-bold text-center">Iftar at 18:26 pm</h3>
+        <h3 class="text-cyan-500 font-bold text-center">Sehri at 04:09</h3>
+        <h3 class="text-violet-500 font-bold text-center">Iftar at 18:26</h3>
         `;
     }
     else if (dateNumber === 21) {
@@ -218,8 +218,8 @@ document.getElementById('btn-update').addEventListener('click', function () {
         hijriDate.innerText = 29 + 'th Ramadan';
         iftarSehri.innerHTML = `
         <h2 class="text-red-500 font-medium text-center mt-2">**Dhaka time**</h2>
-        <h3 class="text-cyan-500 font-bold text-center">Sehri at 4:08 am</h3>
-        <h3 class="text-violet-500 font-bold text-center">Iftar at 18:26 pm</h3>
+        <h3 class="text-cyan-500 font-bold text-center">Sehri at 04:08</h3>
+        <h3 class="text-violet-500 font-bold text-center">Iftar at 18:26</h3>
         `;
     }
     else if (dateNumber === 22) {
@@ -227,8 +227,8 @@ document.getElementById('btn-update').addEventListener('click', function () {
         hijriDate.innerText = 30 + 'th Ramadan';
         iftarSehri.innerHTML = `
         <h2 class="text-red-500 font-medium text-center mt-2">**Dhaka time**</h2>
-        <h3 class="text-cyan-500 font-bold text-center">Sehri at 4:07 am</h3>
-        <h3 class="text-violet-500 font-bold text-center">Iftar at 18:27 pm</h3>
+        <h3 class="text-cyan-500 font-bold text-center">Sehri at 04:07</h3>
+        <h3 class="text-violet-500 font-bold text-center">Iftar at 18:27</h3>
         `;
     }
 })
