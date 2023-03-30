@@ -3,13 +3,16 @@ const spliting = dateAndTime.split(' ');
 const spliting2 = spliting[4].split(':');
 const hour = parseInt(spliting2[0]);
 const min = parseInt(spliting2[1]);
+
+const btnDisabledWarning = document.getElementById('btn-disabled-warning');
 if (hour >= 19 && hour <= 23) {
     const btnUpdate = document.getElementById('btn-update');
     btnUpdate.classList.add('bg-gray-300');
     btnUpdate.classList.add('text-gray-400');
-    btnUpdate.classList.remove('bg-pink-500');
-    btnUpdate.classList.remove('hover:bg-pink-600');
+    btnUpdate.classList.remove('bg-sky-400');
+    btnUpdate.classList.remove('hover:bg-sky-500');
     btnUpdate.classList.remove('text-white');
+    btnDisabledWarning.classList.remove('hidden');
 }
 
 document.getElementById('btn-update').addEventListener('click', function () {
@@ -20,6 +23,7 @@ document.getElementById('btn-update').addEventListener('click', function () {
     if (hour >= 19 && hour <= 23) {
         const btnUpdate = document.getElementById('btn-update');
         btnUpdate.setAttribute('disabled');
+        btnDisabledWarning.classList.remove('hidden');
     }
 
     const date = (new Date().toString());
