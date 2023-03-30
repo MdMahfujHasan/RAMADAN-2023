@@ -30,7 +30,7 @@ document.getElementById('btn-update').addEventListener('click', function () {
         gregorianDate.innerText = 30 + 'th March';
         hijriDate.innerText = 7 + 'th Ramadan';
         iftarSehri.innerHTML = `
-        <div class="bg-sky-200 w-1/3 rounded-md mx-auto">
+        <div class="bg-sky-200 w-1/2 rounded-md mx-auto">
             <h3 class="text-green-600 font-semibold text-center">Sehri - 04:31</h3>
             <h3 class="text-green-600 font-semibold text-center">Iftar - 18:17</h3>
         </div>
@@ -40,7 +40,7 @@ document.getElementById('btn-update').addEventListener('click', function () {
         gregorianDate.innerText = 31 + 'th March';
         hijriDate.innerText = 8 + 'th Ramadan';
         iftarSehri.innerHTML = `
-        <div class="bg-sky-200 w-1/3 rounded-md mx-auto">
+        <div class="bg-sky-200 w-1/2 rounded-md mx-auto">
             <h3 class="text-green-600 font-semibold text-center">Sehri - 04:30</h3>
             <h3 class="text-green-600 font-semibold text-center">Iftar - 18:18</h3>
         </div>
