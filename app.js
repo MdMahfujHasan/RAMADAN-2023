@@ -34,9 +34,9 @@ document.getElementById('btn-update').addEventListener('click', function () {
         gregorianDate.innerText = 9 + 'th April';
         hijriDate.innerText = 17 + 'th Ramadan';
         iftarSehri.innerHTML = `
-        <div class="bg-sky-200 w-1/2 rounded-md mx-auto">
-            <h3 class="text-green-600 font-semibold text-center">Sehri - 04:21</h3>
-            <h3 class="text-green-600 font-semibold text-center">Iftar - 18:21</h3>
+        <div class="bg-sky-100 w-1/2 rounded-md mx-auto">
+            <h3 class="text-green-500 font-semibold text-center text-sm">Sehri - 04:21</h3>
+            <h3 class="text-green-500 font-semibold text-center text-sm">Iftar - 18:21</h3>
         </div>
         `;
     }
@@ -44,9 +44,9 @@ document.getElementById('btn-update').addEventListener('click', function () {
         gregorianDate.innerText = 10 + 'th April';
         hijriDate.innerText = 18 + 'th Ramadan';
         iftarSehri.innerHTML = `
-        <div class="bg-sky-200 w-1/2 rounded-md mx-auto">
-            <h3 class="text-green-600 font-semibold text-center">Sehri - 04:20</h3>
-            <h3 class="text-green-600 font-semibold text-center">Iftar - 18:22</h3>
+        <div class="bg-sky-100 w-1/2 rounded-md mx-auto">
+            <h3 class="text-green-500 font-semibold text-center text-sm">Sehri - 04:20</h3>
+            <h3 class="text-green-500 font-semibold text-center text-sm">Iftar - 18:22</h3>
         </div>
         `;
     }
@@ -54,9 +54,9 @@ document.getElementById('btn-update').addEventListener('click', function () {
         gregorianDate.innerText = 11 + 'th April';
         hijriDate.innerText = 19 + 'th Ramadan';
         iftarSehri.innerHTML = `
-        <div class="bg-sky-200 w-1/2 rounded-md mx-auto">
-            <h3 class="text-green-600 font-semibold text-center">Sehri - 04:19</h3>
-            <h3 class="text-green-600 font-semibold text-center">Iftar - 18:22</h3>
+        <div class="bg-sky-100 w-1/2 rounded-md mx-auto">
+            <h3 class="text-green-500 font-semibold text-center text-sm">Sehri - 04:19</h3>
+            <h3 class="text-green-500 font-semibold text-center text-sm">Iftar - 18:22</h3>
         </div>
         `;
     }
@@ -64,9 +64,9 @@ document.getElementById('btn-update').addEventListener('click', function () {
         gregorianDate.innerText = 12 + 'th April';
         hijriDate.innerText = 20 + 'th Ramadan';
         iftarSehri.innerHTML = `
-        <div class="bg-sky-200 w-1/2 rounded-md mx-auto">
-            <h3 class="text-green-600 font-semibold text-center">Sehri - 04:18</h3>
-            <h3 class="text-green-600 font-semibold text-center">Iftar - 18:23</h3>
+        <div class="bg-sky-100 w-1/2 rounded-md mx-auto">
+            <h3 class="text-green-500 font-semibold text-center text-sm">Sehri - 04:18</h3>
+            <h3 class="text-green-500 font-semibold text-center text-sm">Iftar - 18:23</h3>
         </div>
         `;
     }
@@ -74,9 +74,9 @@ document.getElementById('btn-update').addEventListener('click', function () {
         gregorianDate.innerText = 13 + 'th April';
         hijriDate.innerText = 21 + 'st Ramadan';
         iftarSehri.innerHTML = `
-        <div class="bg-sky-200 w-1/2 rounded-md mx-auto">
-            <h3 class="text-green-600 font-semibold text-center">Sehri - 04:17</h3>
-            <h3 class="text-green-600 font-semibold text-center">Iftar - 18:23</h3>
+        <div class="bg-sky-100 w-1/2 rounded-md mx-auto">
+            <h3 class="text-green-500 font-semibold text-center text-sm">Sehri - 04:17</h3>
+            <h3 class="text-green-500 font-semibold text-center text-sm">Iftar - 18:23</h3>
         </div>
         `;
     }
@@ -84,9 +84,9 @@ document.getElementById('btn-update').addEventListener('click', function () {
         gregorianDate.innerText = 14 + 'th April';
         hijriDate.innerText = 22 + 'nd Ramadan';
         iftarSehri.innerHTML = `
-        <div class="bg-sky-200 w-1/2 rounded-md mx-auto">
-            <h3 class="text-green-600 font-semibold text-center">Sehri - 04:15</h3>
-            <h3 class="text-green-600 font-semibold text-center">Iftar - 18:23</h3>
+        <div class="bg-sky-100 w-1/2 rounded-md mx-auto">
+            <h3 class="text-green-500 font-semibold text-center text-sm">Sehri - 04:15</h3>
+            <h3 class="text-green-500 font-semibold text-center text-sm">Iftar - 18:23</h3>
         </div>
         `;
     }
@@ -94,9 +94,9 @@ document.getElementById('btn-update').addEventListener('click', function () {
         gregorianDate.innerText = 15 + 'th April';
         hijriDate.innerText = 23 + 'th Ramadan';
         iftarSehri.innerHTML = `
-        <div class="bg-sky-200 w-1/2 rounded-md mx-auto">
-            <h3 class="text-green-600 font-semibold text-center">Sehri - 04:14</h3>
-            <h3 class="text-green-600 font-semibold text-center">Iftar - 18:24</h3>
+        <div class="bg-sky-100 w-1/2 rounded-md mx-auto">
+            <h3 class="text-green-500 font-semibold text-center text-sm">Sehri - 04:14</h3>
+            <h3 class="text-green-500 font-semibold text-center text-sm">Iftar - 18:24</h3>
         </div>
         `;
     }
@@ -104,9 +104,9 @@ document.getElementById('btn-update').addEventListener('click', function () {
         gregorianDate.innerText = 16 + 'th April';
         hijriDate.innerText = 24 + 'th Ramadan';
         iftarSehri.innerHTML = `
-        <div class="bg-sky-200 w-1/2 rounded-md mx-auto">
-            <h3 class="text-green-600 font-semibold text-center">Sehri - 04:13</h3>
-            <h3 class="text-green-600 font-semibold text-center">Iftar - 18:24</h3>
+        <div class="bg-sky-100 w-1/2 rounded-md mx-auto">
+            <h3 class="text-green-500 font-semibold text-center text-sm">Sehri - 04:13</h3>
+            <h3 class="text-green-500 font-semibold text-center text-sm">Iftar - 18:24</h3>
         </div>
         `;
     }
@@ -114,9 +114,9 @@ document.getElementById('btn-update').addEventListener('click', function () {
         gregorianDate.innerText = 17 + 'th April';
         hijriDate.innerText = 25 + 'th Ramadan';
         iftarSehri.innerHTML = `
-        <div class="bg-sky-200 w-1/2 rounded-md mx-auto">
-            <h3 class="text-green-600 font-semibold text-center">Sehri - 04:12</h3>
-            <h3 class="text-green-600 font-semibold text-center">Iftar - 18:24</h3>
+        <div class="bg-sky-100 w-1/2 rounded-md mx-auto">
+            <h3 class="text-green-500 font-semibold text-center text-sm">Sehri - 04:12</h3>
+            <h3 class="text-green-500 font-semibold text-center text-sm">Iftar - 18:24</h3>
         </div>
         `;
     }
@@ -124,9 +124,9 @@ document.getElementById('btn-update').addEventListener('click', function () {
         gregorianDate.innerText = 18 + 'th April';
         hijriDate.innerText = 26 + 'th Ramadan';
         iftarSehri.innerHTML = `
-        <div class="bg-sky-200 w-1/2 rounded-md mx-auto">
-            <h3 class="text-green-600 font-semibold text-center">Sehri - 04:11</h3>
-            <h3 class="text-green-600 font-semibold text-center">Iftar - 18:25</h3>
+        <div class="bg-sky-100 w-1/2 rounded-md mx-auto">
+            <h3 class="text-green-500 font-semibold text-center text-sm">Sehri - 04:11</h3>
+            <h3 class="text-green-500 font-semibold text-center text-sm">Iftar - 18:25</h3>
         </div>
         `;
     }
@@ -134,9 +134,9 @@ document.getElementById('btn-update').addEventListener('click', function () {
         gregorianDate.innerText = 19 + 'th April';
         hijriDate.innerText = 27 + 'th Ramadan';
         iftarSehri.innerHTML = `
-        <div class="bg-sky-200 w-1/2 rounded-md mx-auto">
-            <h3 class="text-green-600 font-semibold text-center">Sehri - 04:10</h3>
-            <h3 class="text-green-600 font-semibold text-center">Iftar - 18:25</h3>
+        <div class="bg-sky-100 w-1/2 rounded-md mx-auto">
+            <h3 class="text-green-500 font-semibold text-center text-sm">Sehri - 04:10</h3>
+            <h3 class="text-green-500 font-semibold text-center text-sm">Iftar - 18:25</h3>
         </div>
         `;
     }
@@ -144,9 +144,9 @@ document.getElementById('btn-update').addEventListener('click', function () {
         gregorianDate.innerText = 20 + 'th April';
         hijriDate.innerText = 28 + 'th Ramadan';
         iftarSehri.innerHTML = `
-        <div class="bg-sky-200 w-1/2 rounded-md mx-auto">
-            <h3 class="text-green-600 font-semibold text-center">Sehri - 04:09</h3>
-            <h3 class="text-green-600 font-semibold text-center">Iftar - 18:26</h3>
+        <div class="bg-sky-100 w-1/2 rounded-md mx-auto">
+            <h3 class="text-green-500 font-semibold text-center text-sm">Sehri - 04:09</h3>
+            <h3 class="text-green-500 font-semibold text-center text-sm">Iftar - 18:26</h3>
         </div>
         `;
     }
@@ -154,9 +154,9 @@ document.getElementById('btn-update').addEventListener('click', function () {
         gregorianDate.innerText = 21 + 'st April';
         hijriDate.innerText = 29 + 'th Ramadan';
         iftarSehri.innerHTML = `
-        <div class="bg-sky-200 w-1/2 rounded-md mx-auto">
-            <h3 class="text-green-600 font-semibold text-center">Sehri - 04:08</h3>
-            <h3 class="text-green-600 font-semibold text-center">Iftar - 18:26</h3>
+        <div class="bg-sky-100 w-1/2 rounded-md mx-auto">
+            <h3 class="text-green-500 font-semibold text-center text-sm">Sehri - 04:08</h3>
+            <h3 class="text-green-500 font-semibold text-center text-sm">Iftar - 18:26</h3>
         </div>
         `;
     }
@@ -164,9 +164,9 @@ document.getElementById('btn-update').addEventListener('click', function () {
         gregorianDate.innerText = 22 + 'nd April';
         hijriDate.innerText = 30 + 'th Ramadan';
         iftarSehri.innerHTML = `
-        <div class="bg-sky-200 w-1/2 rounded-md mx-auto">
-            <h3 class="text-green-600 font-semibold text-center">Sehri - 04:07</h3>
-            <h3 class="text-green-600 font-semibold text-center">Iftar - 18:27</h3>
+        <div class="bg-sky-100 w-1/2 rounded-md mx-auto">
+            <h3 class="text-green-500 font-semibold text-center text-sm">Sehri - 04:07</h3>
+            <h3 class="text-green-500 font-semibold text-center text-sm">Iftar - 18:27</h3>
         </div>
         `;
     }
