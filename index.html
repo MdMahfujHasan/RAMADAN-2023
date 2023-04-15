@@ -15,7 +15,7 @@
     <span id="span" class="flex justify-center w-1/5 mx-auto bg-slate-200 text-slate-500 px-2 py-1 rounded-2xl my-2">
     </span>
     <div id="contain_moon" class="py-1 text-center flex flex-col justify-center items-center">
-        <div class="font-semibold bg-green-300 px-2 py-1 rounded text-white">The moon today</div>
+        <div class="font-medium bg-green-200 px-2 py-1 rounded text-white text-xs">The moon today</div>
         <div style="margin-top:-7px;margin-bottom:-15px;padding:30px;filter:drop-shadow(0 0 30px #002d86)">
         </div>
         <div class="mt-16">.</div>
@@ -78,7 +78,7 @@
             </p>
         </div>
         <div class="mb-4">
-            <div id="btn-disabled-warning" class="text-rose-400 bg-rose-100 rounded-lg w-1/ mx-auto hidden">
+            <div id="btn-disabled-warning" class="text-rose-400 bg-rose-100 rounded-lg w-1/2 mx-auto p-0.5 hidden">
                 <small style="font-size: 10px;" class="text-center flex justify-center">Button is disabled from
                     19:00-23:59
                 </small>
@@ -92,8 +92,7 @@
             <button id="btn-update"
                 class="bg-sky-400 hover:bg-sky-500 text-white font-medium px-1.5 py-1 text-sm rounded flex mx-auto my-2 items-center">Today's
                 Date</button>
-            <h2
-                class="mb-4 font-bold text-rose-400 bg-rose-100 w-1/2 mx-auto rounded-2xl px-2 py-1 text-center mt-2 text-xs">
+            <h2 class="mb-4 text-rose-300 bg-rose-50 w-1/2 mx-auto rounded px-2 py-1 text-center mt-2 text-xs">
                 ** Dhaka Time **
             </h2>
             <div class="bg-sky-100 w-1/2 rounded-md mx-auto mb-4">
@@ -101,6 +100,9 @@
                 <h3 id="hijri-date" class="text-green-500 font-semibold text-center text-sm"></h3>
             </div>
             <div id="iftar-sehri">
+
+            </div>
+            <div id="temp" class="flex justify-center items-center text-center flex-col mt-2">
 
             </div>
         </div>
@@ -134,114 +136,15 @@
             <p>"Anyone who fasts for one day for Allah's sake, Allah will keep his face away from the Hellfire for (a
                 distance covered by a journey of) seventy years."
             </p>
-
-        </div>
-        <div class="hidden">
-            <h3 class="text-lg font-medium my-2 text-blue-500 text-center">24-Hour Time Format</h3>
-            <section
-                class="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-6 lg:grid-cols-6 gap-2 w-100 sm:w-100 md:w-3/4 lg:w-1/2 mx-auto">
-                <div class="bg-green-200 text-center text-green-700 font-medium rounded-lg">
-                    <p>00:00</p>
-                    <p>12:00 AM</p>
-                </div>
-                <div class="bg-green-200 text-center text-green-700 font-medium rounded-lg">
-                    <p>01:00</p>
-                    <p>01:00 AM</p>
-                </div>
-                <div class="bg-green-200 text-center text-green-700 font-medium rounded-lg">
-                    <p>02:00</p>
-                    <p>02:00 AM</p>
-                </div>
-                <div class="bg-green-200 text-center text-green-700 font-medium rounded-lg">
-                    <p>03:00</p>
-                    <p>03:00 AM</p>
-                </div>
-                <div class="bg-blue-200 text-center text-blue-700 font-medium rounded-lg">
-                    <p>04:00</p>
-                    <p>04:00 AM</p>
-                </div>
-                <div class="bg-green-200 text-center text-green-700 font-medium rounded-lg">
-                    <p>05:00</p>
-                    <p>05:00 AM</p>
-                </div>
-                <div class="bg-green-200 text-center text-green-700 font-medium rounded-lg">
-                    <p>06:00</p>
-                    <p>06:00 AM</p>
-                </div>
-                <div class="bg-green-200 text-center text-green-700 font-medium rounded-lg">
-                    <p>07:00</p>
-                    <p>07:00 AM</p>
-                </div>
-                <div class="bg-green-200 text-center text-green-700 font-medium rounded-lg">
-                    <p>08:00</p>
-                    <p>08:00 AM</p>
-                </div>
-                <div class="bg-green-200 text-center text-green-700 font-medium rounded-lg">
-                    <p>09:00</p>
-                    <p>09:00 AM</p>
-                </div>
-                <div class="bg-green-200 text-center text-green-700 font-medium rounded-lg">
-                    <p>10:00</p>
-                    <p>10:00 AM</p>
-                </div>
-                <div class="bg-green-200 text-center text-green-700 font-medium rounded-lg">
-                    <p>11:00</p>
-                    <p>11:00 AM</p>
-                </div>
-                <div class="bg-green-200 text-center text-green-700 font-medium rounded-lg">
-                    <p>12:00</p>
-                    <p>12:00 PM</p>
-                </div>
-                <div class="bg-green-200 text-center text-green-700 font-medium rounded-lg">
-                    <p>13:00</p>
-                    <p>01:00 PM</p>
-                </div>
-                <div class="bg-green-200 text-center text-green-700 font-medium rounded-lg">
-                    <p>14:00</p>
-                    <p>02:00 PM</p>
-                </div>
-                <div class="bg-green-200 text-center text-green-700 font-medium rounded-lg">
-                    <p>15:00</p>
-                    <p>03:00 PM</p>
-                </div>
-                <div class="bg-green-200 text-center text-green-700 font-medium rounded-lg">
-                    <p>16:00</p>
-                    <p>04:00 PM</p>
-                </div>
-                <div class="bg-green-200 text-center text-green-700 font-medium rounded-lg">
-                    <p>17:00</p>
-                    <p>05:00 PM</p>
-                </div>
-                <div class="bg-blue-200 text-center text-blue-700 font-medium rounded-lg">
-                    <p>18:00</p>
-                    <p>06:00 PM</p>
-                </div>
-                <div class="bg-green-200 text-center text-green-700 font-medium rounded-lg">
-                    <p>19:00</p>
-                    <p>07:00 PM</p>
-                </div>
-                <div class="bg-green-200 text-center text-green-700 font-medium rounded-lg">
-                    <p>20:00</p>
-                    <p>08:00 PM</p>
-                </div>
-                <div class="bg-green-200 text-center text-green-700 font-medium rounded-lg">
-                    <p>21:00</p>
-                    <p>09:00 PM</p>
-                </div>
-                <div class="bg-green-200 text-center text-green-700 font-medium rounded-lg">
-                    <p>22:00</p>
-                    <p>10:00 PM</p>
-                </div>
-                <div class="bg-green-200 text-center text-green-700 font-medium rounded-lg">
-                    <p>23:00</p>
-                    <p>11:00 PM</p>
-                </div>
-            </section>
         </div>
     </section>
 
 
+
+
+
     <script src="app.js"></script>
+    <script src="temp.js"></script>
 </body>
 
 </html>
