@@ -20,10 +20,10 @@ const displayTemperature = temperature => {
     const url = `http://openweathermap.org/img/wn/${temperature.weather[0].icon}@2x.png`;
     document.getElementById('temp').innerHTML = `
     <div class="text-blue-500 bg-green-100 py-1 px-2 rounded">
-        <p class="text-xs mb-1">Temperature ${temperature.main.temp}&deg;C</p>
-        <p class="text-xs mb-1">Feels like ${temperature.main.feels_like}&deg;C</p>
-        <p class="text-xs mb-1">Sunrise ${sunriseTimeArr[0] + ':' + sunriseTimeArr[1]}am</p>
-        <p class="text-xs mb-1">Sunset ${sunsetTimeArr[0] + ':' + sunsetTimeArr[1]}am</p>
+        <p class="text-xs mb-1">Temperature: ${temperature.main.temp}&deg;C</p>
+        <p class="text-xs mb-1">Feels like: ${temperature.main.feels_like}&deg;C</p>
+        <p class="text-xs mb-1">Sunrise: ${sunriseTimeArr[0] + ':' + sunriseTimeArr[1]}am</p>
+        <p class="text-xs mb-1">Sunset: ${sunsetTimeArr[0] + ':' + sunsetTimeArr[1]}pm</p>
         <div class="flex justify-center items-center">
             <img width="35px" src="${url}" alt="Weather Icon">
             <p class="text-xs rounded">${temperature.weather[0].main}</p>
