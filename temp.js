@@ -20,18 +20,18 @@ const displayTemperature = temperature => {
 
     const url = `http://openweathermap.org/img/wn/${temperature.weather[0].icon}@2x.png`;
     document.getElementById('temp').innerHTML = `
-    <div class="text-green-500 bg-blue-100 py-1 px-2 rounded">
+    <div class="text-green-500 bg-sky-100 py-1 px-2 w-1/2 rounded-md mx-auto">
         <p class="mb-1 text-2xl">${temperature.main.temp}&deg;C</p>
-        <div class="flex">
-            <p class="text-xs rounded text-left mr-1">${temperature.weather[0].main}, </p>
-            <p class="text-xs mb-1">feels like ${temperature.main.feels_like}&deg;C</p>
+        <div class="flex text-center justify-center text-sm">
+            <p class="rounded text-left mr-1">${temperature.weather[0].main}, </p>
+            <p class="mb-1">feels like ${temperature.main.feels_like}&deg;C</p>
         </div>
-        <div class="flex">
-            <p class="text-xs mb-1 mr-1"><i class="fa-solid fa-arrow-up"></i> ${temperature.main.temp_max}&deg;C</p>
-            <p class="text-xs mb-1"><i class="fa-solid fa-arrow-down"></i> ${temperature.main.temp_min}&deg;C</p>
+        <div class="flex text-center justify-center text-sm">
+            <p class="mb-1 mr-1"><i class="fa-solid fa-arrow-up"></i> ${temperature.main.temp_max}&deg;C</p>
+            <p class="mb-1"><i class="fa-solid fa-arrow-down"></i> ${temperature.main.temp_min}&deg;C</p>
         </div>
-        <p class="text-xs mb-1">Sunrise: ${sunriseTimeArr[0] + ':' + sunriseTimeArr[1]}am</p>
-        <p class="text-xs mb-1">Sunset: ${sunsetTimeArr[0] + ':' + sunsetTimeArr[1]}pm</p>
+        <p class="text-sm mb-1">Sunrise: ${sunriseTimeArr[0] + ':' + sunriseTimeArr[1]}am</p>
+        <p class="text-sm mb-1">Sunset: ${sunsetTimeArr[0] + ':' + sunsetTimeArr[1]}pm</p>
             
     </div>
     `;

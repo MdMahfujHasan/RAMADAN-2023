@@ -34,8 +34,8 @@ document.getElementById('btn-update').addEventListener('click', function () {
         hijriDate.innerText = 28 + 'th Ramadan';
         iftarSehri.innerHTML = `
         <div class="bg-sky-100 w-1/2 rounded-md mx-auto">
-            <h3 class="text-green-500 font-semibold text-center text-sm">Sehri - 04:09</h3>
-            <h3 class="text-green-500 font-semibold text-center text-sm">Iftar - 18:26</h3>
+            <h3 class="text-green-500 text-center text-sm">Sehri - 04:09</h3>
+            <h3 class="text-green-500 text-center text-sm">Iftar - 18:26</h3>
         </div>
         `;
     }
@@ -44,8 +44,8 @@ document.getElementById('btn-update').addEventListener('click', function () {
         hijriDate.innerText = 29 + 'th Ramadan';
         iftarSehri.innerHTML = `
         <div class="bg-sky-100 w-1/2 rounded-md mx-auto">
-            <h3 class="text-green-500 font-semibold text-center text-sm">Sehri - 04:08</h3>
-            <h3 class="text-green-500 font-semibold text-center text-sm">Iftar - 18:26</h3>
+            <h3 class="text-green-500 text-center text-sm">Sehri - 04:08</h3>
+            <h3 class="text-green-500 text-center text-sm">Iftar - 18:26</h3>
         </div>
         `;
     }
@@ -54,8 +54,8 @@ document.getElementById('btn-update').addEventListener('click', function () {
         hijriDate.innerText = 30 + 'th Ramadan';
         iftarSehri.innerHTML = `
         <div class="bg-sky-100 w-1/2 rounded-md mx-auto">
-            <h3 class="text-green-500 font-semibold text-center text-sm">Sehri - 04:07</h3>
-            <h3 class="text-green-500 font-semibold text-center text-sm">Iftar - 18:27</h3>
+            <h3 class="text-green-500 text-center text-sm">Sehri - 04:07</h3>
+            <h3 class="text-green-500 text-center text-sm">Iftar - 18:27</h3>
         </div>
         `;
     }
