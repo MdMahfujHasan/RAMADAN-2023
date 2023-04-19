@@ -3,7 +3,7 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q=dhaka&appid=46ad7457603
     .then(data => displayTemperature(data));
 
 const displayTemperature = temperature => {
-    console.log(temperature);
+    // console.log(temperature);
     const { sunrise, sunset } = temperature.sys;
 
     const sunriseUnix = sunrise;
