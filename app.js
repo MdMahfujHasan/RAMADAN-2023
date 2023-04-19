@@ -2,7 +2,7 @@ const dateAndTime = new Date().toString();
 const spliting = dateAndTime.split(' ');
 const spliting2 = spliting[4].split(':');
 const hour = parseInt(spliting2[0]);
-const min = parseInt(spliting2[1]);
+// const min = parseInt(spliting2[1]);
 
 const btnDisabledWarning = document.getElementById('btn-disabled-warning');
 if (hour >= 19 && hour <= 23) {
@@ -29,57 +29,7 @@ document.getElementById('btn-update').addEventListener('click', function () {
     const date = (new Date().toString());
     const arr = date.split(' ');
     const dateNumber = parseInt(arr[2]);
-    if (dateNumber === 15) {
-        gregorianDate.innerText = 15 + 'th April';
-        hijriDate.innerText = 23 + 'rd Ramadan';
-        iftarSehri.innerHTML = `
-        <div class="bg-sky-100 w-1/2 rounded-md mx-auto">
-            <h3 class="text-green-500 font-semibold text-center text-sm">Sehri - 04:14</h3>
-            <h3 class="text-green-500 font-semibold text-center text-sm">Iftar - 18:24</h3>
-        </div>
-        `;
-    }
-    else if (dateNumber === 16) {
-        gregorianDate.innerText = 16 + 'th April';
-        hijriDate.innerText = 24 + 'th Ramadan';
-        iftarSehri.innerHTML = `
-        <div class="bg-sky-100 w-1/2 rounded-md mx-auto">
-            <h3 class="text-green-500 font-semibold text-center text-sm">Sehri - 04:13</h3>
-            <h3 class="text-green-500 font-semibold text-center text-sm">Iftar - 18:24</h3>
-        </div>
-        `;
-    }
-    else if (dateNumber === 17) {
-        gregorianDate.innerText = 17 + 'th April';
-        hijriDate.innerText = 25 + 'th Ramadan';
-        iftarSehri.innerHTML = `
-        <div class="bg-sky-100 w-1/2 rounded-md mx-auto">
-            <h3 class="text-green-500 font-semibold text-center text-sm">Sehri - 04:12</h3>
-            <h3 class="text-green-500 font-semibold text-center text-sm">Iftar - 18:24</h3>
-        </div>
-        `;
-    }
-    else if (dateNumber === 18) {
-        gregorianDate.innerText = 18 + 'th April';
-        hijriDate.innerText = 26 + 'th Ramadan';
-        iftarSehri.innerHTML = `
-        <div class="bg-sky-100 w-1/2 rounded-md mx-auto">
-            <h3 class="text-green-500 font-semibold text-center text-sm">Sehri - 04:11</h3>
-            <h3 class="text-green-500 font-semibold text-center text-sm">Iftar - 18:25</h3>
-        </div>
-        `;
-    }
-    else if (dateNumber === 19) {
-        gregorianDate.innerText = 19 + 'th April';
-        hijriDate.innerText = 27 + 'th Ramadan';
-        iftarSehri.innerHTML = `
-        <div class="bg-sky-100 w-1/2 rounded-md mx-auto">
-            <h3 class="text-green-500 font-semibold text-center text-sm">Sehri - 04:10</h3>
-            <h3 class="text-green-500 font-semibold text-center text-sm">Iftar - 18:25</h3>
-        </div>
-        `;
-    }
-    else if (dateNumber === 20) {
+    if (dateNumber === 20) {
         gregorianDate.innerText = 20 + 'th April';
         hijriDate.innerText = 28 + 'th Ramadan';
         iftarSehri.innerHTML = `

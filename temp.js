@@ -3,6 +3,7 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q=dhaka&appid=46ad7457603
     .then(data => displayTemperature(data));
 
 const displayTemperature = temperature => {
+    console.log(temperature)
     const { sunrise, sunset } = temperature.sys;
 
     const sunriseUnix = sunrise;
@@ -19,15 +20,19 @@ const displayTemperature = temperature => {
 
     const url = `http://openweathermap.org/img/wn/${temperature.weather[0].icon}@2x.png`;
     document.getElementById('temp').innerHTML = `
-    <div class="text-blue-500 bg-green-100 py-1 px-2 rounded">
-        <p class="text-xs mb-1">Temperature: ${temperature.main.temp}&deg;C</p>
-        <p class="text-xs mb-1">Feels like: ${temperature.main.feels_like}&deg;C</p>
+    <div class="text-green-500 bg-blue-100 py-1 px-2 rounded">
+        <p class="mb-1 text-2xl">${temperature.main.temp}&deg;C</p>
+        <div class="flex">
+            <p class="text-xs rounded text-left mr-1">${temperature.weather[0].main}, </p>
+            <p class="text-xs mb-1">feels like ${temperature.main.feels_like}&deg;C</p>
+        </div>
+        <div class="flex">
+            <p class="text-xs mb-1 mr-1"><i class="fa-solid fa-arrow-up"></i> ${temperature.main.temp_max}&deg;C</p>
+            <p class="text-xs mb-1"><i class="fa-solid fa-arrow-down"></i> ${temperature.main.temp_min}&deg;C</p>
+        </div>
         <p class="text-xs mb-1">Sunrise: ${sunriseTimeArr[0] + ':' + sunriseTimeArr[1]}am</p>
         <p class="text-xs mb-1">Sunset: ${sunsetTimeArr[0] + ':' + sunsetTimeArr[1]}pm</p>
-        <div class="flex justify-center items-center">
-            <img width="35px" src="${url}" alt="Weather Icon">
-            <p class="text-xs rounded">${temperature.weather[0].main}</p>
-        </div>
+            
     </div>
     `;
 }
