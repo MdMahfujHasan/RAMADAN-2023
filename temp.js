@@ -10,13 +10,13 @@ const displayTemperature = temperature => {
     const sunriseDate = new Date(sunriseUnix * 1000);
     const sunriseDateStr = sunriseDate + '';
     const sunriseDateStrSplit = sunriseDateStr.split(' ');
-    const sunriseTimeArr = sunriseDateStrSplit[4].split(':');
+    // const sunriseTimeArr = sunriseDateStrSplit[4].split(':');
 
     const sunsetUnix = sunset;
     const sunsetDate = new Date(sunsetUnix * 1000);
     const sunsetDateStr = sunsetDate + '';
     const sunsetDateStrSplit = sunsetDateStr.split(' ');
-    const sunsetTimeArr = sunsetDateStrSplit[4].split(':');
+    // const sunsetTimeArr = sunsetDateStrSplit[4].split(':');
 
     const url = `http://openweathermap.org/img/wn/${temperature.weather[0].icon}@2x.png`;
     document.getElementById('temp').innerHTML = `
@@ -30,9 +30,6 @@ const displayTemperature = temperature => {
             <p class="mb-1 mr-1"><i class="fa-solid fa-arrow-up"></i> ${temperature.main.temp_max}&deg;C</p>
             <p class="mb-1"><i class="fa-solid fa-arrow-down"></i> ${temperature.main.temp_min}&deg;C</p>
         </div>
-        <p class="text-sm mb-1">Sunrise: ${sunriseTimeArr[0] + ':' + sunriseTimeArr[1]}am</p>
-        <p class="text-sm mb-1">Sunset: ${sunsetTimeArr[0] + ':' + sunsetTimeArr[1]}pm</p>
-            
     </div>
     `;
 }
