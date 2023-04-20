@@ -10,11 +10,11 @@ const displayNames = allNames => {
         console.log(names);
         const { number, name, transliteration, en } = names;
         const div = document.createElement('div');
-        div.classList.add('bg-rose-300', 'p-2.5', 'rounded-xl', 'text-center', 'text-white', 'font-semibold')
+        div.classList.add('bg-sky-300', 'p-2.5', 'rounded-lg', 'text-center', 'text-white', 'font-semibold')
         div.innerHTML = `
         <p class="text-xs">${number}</p>
-        <p class="text-sm">${name}</p>
-        <p class="text-xl bg-rose-400 rounded-2xl">${transliteration}</p>
+        <p class="text-lg">${name}</p>
+        <p class="text-xl">${transliteration}</p>
         <p class="text-sm">${en.meaning}</p>
         `;
         namesContainer.appendChild(div);
