@@ -7,11 +7,8 @@ const hour = parseInt(spliting2[0]);
 const btnDisabledWarning = document.getElementById('btn-disabled-warning');
 if (hour >= 19 && hour <= 23) {
     const btnUpdate = document.getElementById('btn-update');
-    btnUpdate.classList.add('bg-gray-300');
-    btnUpdate.classList.add('text-gray-400');
-    btnUpdate.classList.remove('bg-sky-400');
-    btnUpdate.classList.remove('hover:bg-sky-500');
-    btnUpdate.classList.remove('text-white');
+    btnUpdate.classList.add('bg-gray-300', 'text-gray-400');
+    btnUpdate.classList.remove('text-white', 'bg-sky-400', 'hover:bg-sky-500');;
     btnDisabledWarning.classList.remove('hidden');
 }
 
@@ -33,9 +30,9 @@ document.getElementById('btn-update').addEventListener('click', function () {
         gregorianDate.innerText = 20 + 'th April';
         hijriDate.innerText = 28 + 'th Ramadan';
         iftarSehri.innerHTML = `
-        <div class="bg-sky-100 w-2/3 rounded-md mx-auto">
-            <h3 class="text-green-500 text-center text-sm">Sehri - 04:09</h3>
-            <h3 class="text-green-500 text-center text-sm">Iftar - 18:26</h3>
+        <div class="bg-sky-100 w-2/3 rounded-md mx-auto text-green-500 text-center text-sm">
+            <h3>Sehri - 04:09</h3>
+            <h3>Iftar - 18:26</h3>
         </div>
         `;
     }
@@ -43,9 +40,9 @@ document.getElementById('btn-update').addEventListener('click', function () {
         gregorianDate.innerText = 21 + 'st April';
         hijriDate.innerText = 29 + 'th Ramadan';
         iftarSehri.innerHTML = `
-        <div class="bg-sky-100 w-2/3 rounded-md mx-auto">
-            <h3 class="text-green-500 text-center text-sm">Sehri - 04:08</h3>
-            <h3 class="text-green-500 text-center text-sm">Iftar - 18:26</h3>
+        <div class="text-green-500 text-center text-sm bg-sky-100 w-2/3 rounded-md mx-auto">
+            <h3>Sehri - 04:08</h3>
+            <h3>Iftar - 18:26</h3>
         </div>
         `;
     }
@@ -53,9 +50,9 @@ document.getElementById('btn-update').addEventListener('click', function () {
         gregorianDate.innerText = 22 + 'nd April';
         hijriDate.innerText = 30 + 'th Ramadan';
         iftarSehri.innerHTML = `
-        <div class="bg-sky-100 w-2/3 rounded-md mx-auto">
-            <h3 class="text-green-500 text-center text-sm">Sehri - 04:07</h3>
-            <h3 class="text-green-500 text-center text-sm">Iftar - 18:27</h3>
+        <div class="text-green-500 text-center text-sm bg-sky-100 w-2/3 rounded-md mx-auto">
+            <h3>Sehri - 04:07</h3>
+            <h3>Iftar - 18:27</h3>
         </div>
         `;
     }
