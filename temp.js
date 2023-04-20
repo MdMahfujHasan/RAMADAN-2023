@@ -17,7 +17,7 @@ const displayTemperature = temperature => {
 
     const url = `http://openweathermap.org/img/wn/${temperature.weather[0].icon}@2x.png`;
     document.getElementById('temp').innerHTML = `
-    <div class="text-green-500 bg-sky-100 py-1 px-2 rounded">
+    <div class="text-green-500 py-1 px-2 rounded">
         <p class="mb-1 text-xl">${temperature.main.temp}&deg;C</p>
         <div class="flex text-center justify-center text-sm">
             <p class="rounded text-left mr-1">${temperature.weather[0].main}, </p>
