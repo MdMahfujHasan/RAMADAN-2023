@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/6c0e978889.js" crossorigin="anonymous"></script>
-    <title>Ramadan Date 2023</title>
+    <title>Ramadan Date</title>
 </head>
 
 <body class="bg-slate-100 p-4">
@@ -19,7 +19,7 @@
         <div style="margin-top:-7px;margin-bottom:-15px;padding:30px;filter:drop-shadow(0 0 30px #002d86)">
         </div>
         <div class="mt-16">.</div>
-        <div class="font-small">.</div>
+        <div class="text-xs">.</div>
     </div>
     <script>
         (
@@ -52,7 +52,7 @@
     </script>
     <section>
         <div class="mb-4">
-            <div id="btn-disabled-warning" class="text-rose-400 bg-rose-100 rounded-lg w-1/2 mx-auto p-0.5 hidden">
+            <div id="btn-disabled-warning" class="text-rose-400 bg-rose-100 rounded-lg mx-auto p-0.5 hidden">
                 <small style="font-size: 10px;" class="text-center flex justify-center">Button is disabled from
                     19:00-23:59
                 </small>
@@ -63,15 +63,8 @@
                     am)
                 </small>
             </div>
-            <button id="btn-update"
-                class="bg-sky-400 hover:bg-sky-500 text-white font-medium px-1.5 py-1 text-sm rounded flex mx-auto my-2 items-center">Today's
-                Date of Dhaka</button>
-            <div class="bg-sky-100 w-2/3 rounded-md mx-auto mb-4">
-                <h3 id="gregorian-date" class="text-green-500 text-center text-sm"></h3>
-                <h3 id="hijri-date" class="text-green-500 text-center text-sm"></h3>
-            </div>
-            <div id="iftar-sehri">
-
+            <div class="bg-sky-100 rounded mx-auto mb-4">
+                <h3 id="date" class="text-green-500 text-center text-sm"></h3>
             </div>
             <div id="temp" class="flex justify-center items-center text-center flex-col mt-2">
 
@@ -90,7 +83,7 @@
         </div>
     </section>
 
-    <footer class="bg-sky-950 p-2 text-white text-center">
+    <footer class="bg-sky-800 p-2 text-white text-center">
         <p>
             <small>
                 Made with

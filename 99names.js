@@ -5,9 +5,7 @@ fetch('https://api.aladhan.com/v1/asmaAlHusna')
 const displayNames = allNames => {
     const namesContainer = document.getElementById('names-container');
     namesContainer.textContent = '';
-    console.log(allNames);
     allNames.map(names => {
-        console.log(names);
         const { number, name, transliteration, en } = names;
         const div = document.createElement('div');
         div.classList.add('bg-sky-300', 'p-2.5', 'rounded-lg', 'text-center', 'text-white', 'font-semibold')
