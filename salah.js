@@ -22,30 +22,26 @@ const displaySalatTime = time => {
     <div>
         <table class="flex justify-center items-center w-1/2 mx-auto">
             <tr class="bg-slate-200">
-                <td>Date:</td>
-                <td>${todaysDate}</td>
-            </tr>
-            <tr class="bg-slate-300">
                 <td>Fajr:</td>
                 <td>${fajr}</td>
             </tr>
-            <tr class="bg-slate-200">
+            <tr class="bg-slate-300">
                 <td>Sunrise:</td>
                 <td>${shurooq}</td>
             </tr>
-            <tr class="bg-slate-300">
+            <tr class="bg-slate-200">
                 <td>Dhuhr:</td>
                 <td>${dhuhr}</td>
             </tr>
-            <tr class="bg-slate-200">
+            <tr class="bg-slate-300">
                 <td>Asr:</td>
                 <td>${asr}</td>
             </tr>
-            <tr class="bg-slate-300">
+            <tr class="bg-slate-200">
                 <td>Maghrib:</td>
                 <td>${maghrib}</td>
             </tr>
-            <tr class="bg-slate-200">
+            <tr class="bg-slate-300">
                 <td>Isha:</td>
                 <td>${isha}</td>
             </tr>
