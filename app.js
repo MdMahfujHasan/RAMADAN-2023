@@ -5,6 +5,10 @@ fetch('http://api.aladhan.com/v1/gToH')
 const displayDate = date => {
     const hijri = date.hijri;
     const gregorian = date.gregorian;
+    const nowHourTime = parseInt(((((new Date() + '').split(' '))[4]).split(':'))[0]);
+    if (nowHourTime >= 0 && nowHourTime <= 5) {
+        document.getElementById('warning-text').innerHTML = '<i class="fa-solid fa-triangle-exclamation text-yellow-400"></i> Gregorian and Hijri date gets updated after 6:00 AM';
+    }
     document.getElementById('date').innerHTML = `
     <p>${gregorian.day} ${gregorian.month.en}, ${gregorian.year}</p>
     <p>${hijri.day} ${hijri.month.en}, ${hijri.year}</p>
