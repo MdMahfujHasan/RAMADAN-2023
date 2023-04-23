@@ -18,6 +18,17 @@ const displaySalatTime = time => {
     const salahTime = document.getElementById('salah-time');
     const splitTime = date_for.split('-');
     const todaysDate = splitTime[2] + '/' + splitTime[1] + '/' + splitTime[0];
+
+    const maghribHour = parseInt((((maghrib.split(' '))[0]).split(':'))[0]);
+    // const maghribMin = parseInt((((maghrib.split(' '))[0]).split(':'))[1]);
+    // console.log(maghribHour,maghribMin);
+
+    // const nowTimeHour = parseInt(((((new Date() + '').split(' '))[4]).split(':'))[0]) - 12;
+    // const nowTimeMin = parseInt(((((new Date() + '').split(' '))[4]).split(':'))[1]);
+    // console.log(nowTimeHour,nowTimeMin);
+
+    // console.log(((((new Date() + '').split(' '))[4]).split(':'))[0])
+
     salahTime.innerHTML = `
     <div>
         <table class="flex justify-center items-center w-1/2 mx-auto">

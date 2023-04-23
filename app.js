@@ -6,8 +6,15 @@ const displayDate = date => {
     const hijri = date.hijri;
     const gregorian = date.gregorian;
     const nowHourTime = parseInt(((((new Date() + '').split(' '))[4]).split(':'))[0]);
+    // console.log(nowHourTime);
+    // console.log(parseInt(gregorian.day));
     if (nowHourTime >= 0 && nowHourTime <= 5) {
-        document.getElementById('warning-text').innerHTML = '<i class="fa-solid fa-triangle-exclamation text-yellow-400"></i> Gregorian and Hijri date gets updated after 6:00 AM';
+        document.getElementById('warning-text-1').innerHTML = '<i class="fa-solid fa-triangle-exclamation text-yellow-400"></i> Gregorian date gets updated after 6:00 am';
+        // gregorian.day = parseInt(gregorian.day) + 1;
+    }
+    const nowTime = ((((new Date() + '').split(' '))[4]).split(':'))[0];
+    if ((nowTime >= 19 && nowTime <= 23) || (nowTime >= 0 && nowTime <= 5)) {
+        document.getElementById('warning-text-2').innerHTML = `<i class="fa-solid fa-triangle-exclamation text-yellow-400"></i> Hijri date gets updated after 6:00 am. At this moment, hijri date should be <span class="text-green-400">${parseInt(hijri.day) + 1} ${hijri.month.en}, ${hijri.year}</span>`;
     }
     document.getElementById('date').innerHTML = `
     <p>${gregorian.day} ${gregorian.month.en}, ${gregorian.year}</p>
