@@ -30,29 +30,28 @@ const displaySalatTime = time => {
     // console.log(((((new Date() + '').split(' '))[4]).split(':'))[0])
 
     salahTime.innerHTML = `
-    <div>
         <table class="flex justify-center items-center w-1/2 mx-auto">
-            <tr class="bg-slate-200">
+            <tr class="bg-sky-100">
                 <td>Fajr:</td>
                 <td>${fajr}</td>
             </tr>
-            <tr class="bg-slate-300">
+            <tr class="bg-sky-200">
                 <td>Sunrise:</td>
                 <td>${shurooq}</td>
             </tr>
-            <tr class="bg-slate-200">
+            <tr class="bg-sky-100">
                 <td>Dhuhr:</td>
                 <td>${dhuhr}</td>
             </tr>
-            <tr class="bg-slate-300">
+            <tr class="bg-sky-200">
                 <td>Asr:</td>
                 <td>${asr}</td>
             </tr>
-            <tr class="bg-slate-200">
+            <tr class="bg-sky-100">
                 <td>Maghrib:</td>
                 <td>${maghrib}</td>
             </tr>
-            <tr class="bg-slate-300">
+            <tr class="bg-sky-200">
                 <td>Isha:</td>
                 <td>${isha}</td>
             </tr>
@@ -61,6 +60,5 @@ const displaySalatTime = time => {
             <p><small>Method: ${prayer_method_name}</small></p>
             <p><small>Qibla Direction on Compass: ${qibla_direction}&deg;</small></p>
         </div>
-    </div>
     `;
 }
