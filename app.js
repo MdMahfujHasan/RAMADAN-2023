@@ -9,12 +9,12 @@ const displayDate = date => {
     // console.log(nowHourTime);
     // console.log(parseInt(gregorian.day));
     if (nowHourTime >= 0 && nowHourTime <= 5) {
-        document.getElementById('warning-text-1').innerHTML = `<i class="fa-solid fa-triangle-exclamation text-yellow-400"></i> Gregorian date gets updated after 6:00 am. At this moment, Gregorian date should be <span class="text-green-500">${parseInt(gregorian.day) + 1} ${gregorian.month.en}, ${gregorian.year}</span>`;
+        document.getElementById('warning-text-1').innerHTML = `<i class="fa-solid fa-triangle-exclamation text-yellow-400"></i> Gregorian date gets updated after 6:00 am. At this moment, Gregorian date should be <span class="text-green-500">${parseInt(gregorian.day) + 1} ${gregorian.month.en}, ${gregorian.year}.</span>  Yesterday's Gregorian date is down below.`;
         // gregorian.day = parseInt(gregorian.day) + 1;
     }
     const nowTime = ((((new Date() + '').split(' '))[4]).split(':'))[0];
     if ((nowTime >= 19 && nowTime <= 23) || (nowTime >= 0 && nowTime <= 5)) {
-        document.getElementById('warning-text-2').innerHTML = `<i class="fa-solid fa-triangle-exclamation text-yellow-400"></i> Hijri date gets updated after 6:00 am. At this moment, hijri date should be <span class="text-green-500">${parseInt(hijri.day) + 1} ${hijri.month.en}, ${hijri.year}</span>`;
+        document.getElementById('warning-text-2').innerHTML = `<i class="fa-solid fa-triangle-exclamation text-yellow-400"></i> Hijri date gets updated after 6:00 am. At this moment, hijri date should be <span class="text-green-500">${parseInt(hijri.day) + 1} ${hijri.month.en}, ${hijri.year}.</span> Yesterday's Hijri date is down below.`;
     }
     document.getElementById('date').innerHTML = `
     <p>${gregorian.day} ${gregorian.month.en}, ${gregorian.year}</p>
